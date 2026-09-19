@@ -19,8 +19,8 @@ jobs:
       - name: Make 50 daily commits
         run: |
           mkdir -p logs
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Muhammadjon011"
+          git config user.email "mammatjumayevmuhammadjon@gmail.com"
           
           for i in {1..50}; do
             echo "Updated: $(date -u) - Commit $i" >> logs/daily.log

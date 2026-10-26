@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Make 50 daily commits
+      - name: Make 5 daily commits
         run: |
           mkdir -p logs
           git config user.name "Muhammadjon011"
